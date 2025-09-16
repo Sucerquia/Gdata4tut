@@ -2,8 +2,8 @@
  Input=G-forces08.com
  Output=G-forces08.log
  Initial command:
- /nexus/posix0/bmm/home/sucerqdl/sw/g09/l1.exe "/nexus/posix0/bmm/home/sucerqdl/sw/g09/g09_scratch/Gau-2707339.inp" -scrdir="/nexus/posix0/bmm/home/sucerqdl/sw/g09/g09_scratch/"
- Entering Link 1 = /nexus/posix0/bmm/home/sucerqdl/sw/g09/l1.exe PID=   2707341.
+ /nexus/posix0/bmm/home/sucerqdl/sw/g09/l1.exe "/nexus/posix0/bmm/home/sucerqdl/sw/g09/g09_scratch/Gau-2710559.inp" -scrdir="/nexus/posix0/bmm/home/sucerqdl/sw/g09/g09_scratch/"
+ Entering Link 1 = /nexus/posix0/bmm/home/sucerqdl/sw/g09/l1.exe PID=   2710561.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2013,
             Gaussian, Inc.  All Rights Reserved.
@@ -93,7 +93,7 @@
  7/29=1/1,2,3,16;
  1/10=7,30=1/3;
  99//99;
- Leave Link    1 at Tue Sep 16 15:20:09 2025, MaxMem=           0 cpu:         1.2
+ Leave Link    1 at Tue Sep 16 16:00:12 2025, MaxMem=           0 cpu:         1.3
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l101.exe)
  ------------------------------
  Gaussian input prepared by ASE
@@ -195,7 +195,7 @@
  NQMom=    0.0000000   0.0000000   0.0000000   2.0440000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
  NMagM=    2.7928460   0.0000000   0.0000000   0.4037610   2.7928460   0.0000000   2.7928460   2.7928460   2.7928460
  AtZNuc=   1.0000000   6.0000000   8.0000000   7.0000000   1.0000000   6.0000000   1.0000000   1.0000000   1.0000000
- Leave Link  101 at Tue Sep 16 15:20:10 2025, MaxMem=    33554432 cpu:         2.3
+ Leave Link  101 at Tue Sep 16 16:00:12 2025, MaxMem=    33554432 cpu:         2.5
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -263,7 +263,7 @@
  Number of steps in this run=      2 maximum allowed number of steps=      2.
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Tue Sep 16 15:20:10 2025, MaxMem=    33554432 cpu:         0.5
+ Leave Link  103 at Tue Sep 16 16:00:12 2025, MaxMem=    33554432 cpu:         0.5
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l202.exe)
                           Input orientation:                          
  ---------------------------------------------------------------------
@@ -373,7 +373,7 @@
      19          1           0       -4.819100   -0.802797   -0.914890
  ---------------------------------------------------------------------
  Rotational constants (GHZ):      5.0900374      0.4947516      0.4549397
- Leave Link  202 at Tue Sep 16 15:20:10 2025, MaxMem=    33554432 cpu:         0.1
+ Leave Link  202 at Tue Sep 16 16:00:12 2025, MaxMem=    33554432 cpu:         0.2
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l301.exe)
  Standard basis: 6-31+G (6D, 7F)
  Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
@@ -389,7 +389,7 @@
  Integral buffers will be    131072 words long.
  Raffenetti 2 integral format.
  Two-electron integral symmetry is turned on.
- Leave Link  301 at Tue Sep 16 15:20:10 2025, MaxMem=    33554432 cpu:         1.1
+ Leave Link  301 at Tue Sep 16 16:00:13 2025, MaxMem=    33554432 cpu:         1.1
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l302.exe)
  NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
          NCelK=      1 NCelE2=     1 NClLst=     1 CellRange=     0.0.
@@ -401,10 +401,10 @@
  IXCGrd= 4 IRadAn=           0 IRanWt=          -1 IRanGd=           0 AccXCQ= 0.00D+00.
  Generated NRdTot=       0 NPtTot=           0 NUsed=           0 NTot=          32
  NSgBfM=   136   136   136   136   136 MxSgAt=    19 MxSgA2=    19.
- Leave Link  302 at Tue Sep 16 15:20:10 2025, MaxMem=    33554432 cpu:         2.8
+ Leave Link  302 at Tue Sep 16 16:00:13 2025, MaxMem=    33554432 cpu:         3.1
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Tue Sep 16 15:20:11 2025, MaxMem=    33554432 cpu:         0.7
+ Leave Link  303 at Tue Sep 16 16:00:13 2025, MaxMem=    33554432 cpu:         0.7
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l401.exe)
  ExpMin= 4.38D-02 ExpMax= 5.48D+03 ExpMxC= 8.25D+02 IAcc=2 IRadAn=         4 AccDes= 0.00D+00
  Harris functional with IExCor= 1009 and IRadAn=       4 diagonalized for initial guess.
@@ -417,7 +417,7 @@
  Petite list used in FoFCou.
  Harris En= -455.877632602313    
  JPrj=0 DoOrth=F DoCkMO=F.
- Leave Link  401 at Tue Sep 16 15:20:11 2025, MaxMem=    33554432 cpu:         3.7
+ Leave Link  401 at Tue Sep 16 16:00:13 2025, MaxMem=    33554432 cpu:         3.8
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l502.exe)
  Closed shell SCF:
  Using DIIS extrapolation, IDIIS=  1040.
@@ -438,9 +438,9 @@
          wScrn=  0.000000 ICntrl=       0 IOpCl=  0 I1Cent=           0 NGrid=           0
          NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
  Symmetry not used in FoFCou.
- E= -455.779391573196    
+ E= -455.779391573200    
  DIIS: error= 3.92D-02 at cycle   1 NSaved=   1.
- NSaved= 1 IEnMin= 1 EnMin= -455.779391573196     IErMin= 1 ErrMin= 3.92D-02
+ NSaved= 1 IEnMin= 1 EnMin= -455.779391573200     IErMin= 1 ErrMin= 3.92D-02
  ErrMax= 3.92D-02  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.74D-01 BMatP= 2.74D-01
  IDIUse=3 WtCom= 6.08D-01 WtEn= 3.92D-01
  Coeff-Com:  0.100D+01
@@ -453,9 +453,9 @@
 
  Cycle   2  Pass 1  IDiag  1:
  RMSU=  1.03D-02    CP:  1.12D+00
- E= -455.828084375565     Delta-E=       -0.048692802369 Rises=F Damp=T
+ E= -455.828084375566     Delta-E=       -0.048692802366 Rises=F Damp=T
  DIIS: error= 2.22D-02 at cycle   2 NSaved=   2.
- NSaved= 2 IEnMin= 2 EnMin= -455.828084375565     IErMin= 2 ErrMin= 2.22D-02
+ NSaved= 2 IEnMin= 2 EnMin= -455.828084375566     IErMin= 2 ErrMin= 2.22D-02
  ErrMax= 2.22D-02  0.00D+00 EMaxC= 1.00D-01 BMatC= 5.26D-02 BMatP= 2.74D-01
  IDIUse=3 WtCom= 7.78D-01 WtEn= 2.22D-01
  Coeff-Com:  0.267D+00 0.733D+00
@@ -466,9 +466,9 @@
 
  Cycle   3  Pass 1  IDiag  1:
  RMSU=  4.45D-03    CP:  9.90D-01  3.66D-01
- E= -456.007712919059     Delta-E=       -0.179628543494 Rises=F Damp=F
+ E= -456.007712919054     Delta-E=       -0.179628543488 Rises=F Damp=F
  DIIS: error= 1.27D-02 at cycle   3 NSaved=   3.
- NSaved= 3 IEnMin= 3 EnMin= -456.007712919059     IErMin= 3 ErrMin= 1.27D-02
+ NSaved= 3 IEnMin= 3 EnMin= -456.007712919054     IErMin= 3 ErrMin= 1.27D-02
  ErrMax= 1.27D-02  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.53D-02 BMatP= 5.26D-02
  IDIUse=3 WtCom= 8.73D-01 WtEn= 1.27D-01
  Coeff-Com:  0.112D+00 0.356D+00 0.533D+00
@@ -479,9 +479,9 @@
 
  Cycle   4  Pass 1  IDiag  1:
  RMSU=  1.26D-03    CP:  9.97D-01  4.15D-01  9.72D-01
- E= -456.020383172544     Delta-E=       -0.012670253485 Rises=F Damp=F
+ E= -456.020383172554     Delta-E=       -0.012670253500 Rises=F Damp=F
  DIIS: error= 4.76D-03 at cycle   4 NSaved=   4.
- NSaved= 4 IEnMin= 4 EnMin= -456.020383172544     IErMin= 4 ErrMin= 4.76D-03
+ NSaved= 4 IEnMin= 4 EnMin= -456.020383172554     IErMin= 4 ErrMin= 4.76D-03
  ErrMax= 4.76D-03  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.57D-03 BMatP= 1.53D-02
  IDIUse=3 WtCom= 9.52D-01 WtEn= 4.76D-02
  Coeff-Com:  0.245D-01 0.468D-01 0.295D+00 0.634D+00
@@ -492,9 +492,9 @@
 
  Cycle   5  Pass 1  IDiag  1:
  RMSU=  3.14D-04    CP:  9.92D-01  3.82D-01  1.00D+00  8.04D-01
- E= -456.022442041305     Delta-E=       -0.002058868761 Rises=F Damp=F
+ E= -456.022442041311     Delta-E=       -0.002058868757 Rises=F Damp=F
  DIIS: error= 1.25D-03 at cycle   5 NSaved=   5.
- NSaved= 5 IEnMin= 5 EnMin= -456.022442041305     IErMin= 5 ErrMin= 1.25D-03
+ NSaved= 5 IEnMin= 5 EnMin= -456.022442041311     IErMin= 5 ErrMin= 1.25D-03
  ErrMax= 1.25D-03  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.82D-04 BMatP= 2.57D-03
  IDIUse=3 WtCom= 9.88D-01 WtEn= 1.25D-02
  Coeff-Com:  0.332D-02-0.152D-01 0.860D-01 0.316D+00 0.610D+00
@@ -505,9 +505,9 @@
 
  Cycle   6  Pass 1  IDiag  1:
  RMSU=  1.03D-04    CP:  9.89D-01  3.71D-01  1.02D+00  8.36D-01  7.70D-01
- E= -456.022619535665     Delta-E=       -0.000177494360 Rises=F Damp=F
+ E= -456.022619535664     Delta-E=       -0.000177494353 Rises=F Damp=F
  DIIS: error= 2.76D-04 at cycle   6 NSaved=   6.
- NSaved= 6 IEnMin= 6 EnMin= -456.022619535665     IErMin= 6 ErrMin= 2.76D-04
+ NSaved= 6 IEnMin= 6 EnMin= -456.022619535664     IErMin= 6 ErrMin= 2.76D-04
  ErrMax= 2.76D-04  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.11D-05 BMatP= 1.82D-04
  IDIUse=3 WtCom= 9.97D-01 WtEn= 2.76D-03
  Coeff-Com:  0.165D-02-0.102D-01 0.274D-01 0.102D+00 0.269D+00 0.610D+00
@@ -519,9 +519,9 @@
  Cycle   7  Pass 1  IDiag  1:
  RMSU=  2.84D-05    CP:  9.88D-01  3.67D-01  1.02D+00  8.39D-01  8.00D-01
                     CP:  1.02D+00
- E= -456.022628700743     Delta-E=       -0.000009165078 Rises=F Damp=F
+ E= -456.022628700746     Delta-E=       -0.000009165082 Rises=F Damp=F
  DIIS: error= 9.39D-05 at cycle   7 NSaved=   7.
- NSaved= 7 IEnMin= 7 EnMin= -456.022628700743     IErMin= 7 ErrMin= 9.39D-05
+ NSaved= 7 IEnMin= 7 EnMin= -456.022628700746     IErMin= 7 ErrMin= 9.39D-05
  ErrMax= 9.39D-05  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.64D-06 BMatP= 1.11D-05
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com:  0.784D-03-0.210D-02-0.410D-02-0.230D-01-0.242D-02 0.251D+00
@@ -534,9 +534,9 @@
  Cycle   8  Pass 1  IDiag  1:
  RMSU=  1.51D-05    CP:  9.88D-01  3.64D-01  1.02D+00  8.39D-01  8.29D-01
                     CP:  1.05D+00  9.67D-01
- E= -456.022630143517     Delta-E=       -0.000001442774 Rises=F Damp=F
+ E= -456.022630143519     Delta-E=       -0.000001442773 Rises=F Damp=F
  DIIS: error= 6.29D-05 at cycle   8 NSaved=   8.
- NSaved= 8 IEnMin= 8 EnMin= -456.022630143517     IErMin= 8 ErrMin= 6.29D-05
+ NSaved= 8 IEnMin= 8 EnMin= -456.022630143519     IErMin= 8 ErrMin= 6.29D-05
  ErrMax= 6.29D-05  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.62D-07 BMatP= 1.64D-06
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com:  0.356D-03-0.438D-03-0.468D-02-0.229D-01-0.255D-01 0.837D-01
@@ -549,9 +549,9 @@
  Cycle   9  Pass 1  IDiag  1:
  RMSU=  6.68D-06    CP:  9.88D-01  3.64D-01  1.02D+00  8.39D-01  8.37D-01
                     CP:  1.05D+00  1.06D+00  1.01D+00
- E= -456.022630350451     Delta-E=       -0.000000206934 Rises=F Damp=F
+ E= -456.022630350454     Delta-E=       -0.000000206935 Rises=F Damp=F
  DIIS: error= 1.70D-05 at cycle   9 NSaved=   9.
- NSaved= 9 IEnMin= 9 EnMin= -456.022630350451     IErMin= 9 ErrMin= 1.70D-05
+ NSaved= 9 IEnMin= 9 EnMin= -456.022630350454     IErMin= 9 ErrMin= 1.70D-05
  ErrMax= 1.70D-05  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.76D-08 BMatP= 2.62D-07
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com: -0.144D-05 0.201D-03-0.101D-02-0.504D-02-0.106D-01-0.254D-01
@@ -564,9 +564,9 @@
  Cycle  10  Pass 1  IDiag  1:
  RMSU=  1.66D-06    CP:  9.88D-01  3.63D-01  1.02D+00  8.38D-01  8.38D-01
                     CP:  1.06D+00  1.07D+00  1.06D+00  8.25D-01
- E= -456.022630376745     Delta-E=       -0.000000026294 Rises=F Damp=F
+ E= -456.022630376750     Delta-E=       -0.000000026296 Rises=F Damp=F
  DIIS: error= 4.37D-06 at cycle  10 NSaved=  10.
- NSaved=10 IEnMin=10 EnMin= -456.022630376745     IErMin=10 ErrMin= 4.37D-06
+ NSaved=10 IEnMin=10 EnMin= -456.022630376750     IErMin=10 ErrMin= 4.37D-06
  ErrMax= 4.37D-06  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.81D-09 BMatP= 2.76D-08
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com: -0.275D-04 0.140D-03-0.105D-03-0.728D-03-0.331D-02-0.200D-01
@@ -579,9 +579,9 @@
  Cycle  11  Pass 1  IDiag  1:
  RMSU=  6.24D-07    CP:  9.88D-01  3.63D-01  1.02D+00  8.38D-01  8.38D-01
                     CP:  1.06D+00  1.08D+00  1.07D+00  8.74D-01  8.81D-01
- E= -456.022630379762     Delta-E=       -0.000000003017 Rises=F Damp=F
+ E= -456.022630379761     Delta-E=       -0.000000003011 Rises=F Damp=F
  DIIS: error= 6.82D-07 at cycle  11 NSaved=  11.
- NSaved=11 IEnMin=11 EnMin= -456.022630379762     IErMin=11 ErrMin= 6.82D-07
+ NSaved=11 IEnMin=11 EnMin= -456.022630379761     IErMin=11 ErrMin= 6.82D-07
  ErrMax= 6.82D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.10D-11 BMatP= 2.81D-09
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com: -0.735D-05 0.151D-04 0.791D-04 0.297D-03 0.323D-03-0.185D-02
@@ -589,15 +589,15 @@
  Coeff:     -0.735D-05 0.151D-04 0.791D-04 0.297D-03 0.323D-03-0.185D-02
  Coeff:     -0.638D-02-0.104D-01 0.109D-01 0.121D+00 0.886D+00
  Gap=     0.298 Goal=   None    Shift=    0.000
- RMSDP=2.49D-07 MaxDP=8.32D-06 DE=-3.02D-09 OVMax= 4.94D-06
+ RMSDP=2.49D-07 MaxDP=8.32D-06 DE=-3.01D-09 OVMax= 4.94D-06
 
  Cycle  12  Pass 1  IDiag  1:
  RMSU=  1.32D-07    CP:  9.88D-01  3.63D-01  1.02D+00  8.38D-01  8.38D-01
                     CP:  1.06D+00  1.08D+00  1.07D+00  8.92D-01  9.26D-01
                     CP:  9.99D-01
- E= -456.022630379853     Delta-E=       -0.000000000092 Rises=F Damp=F
+ E= -456.022630379855     Delta-E=       -0.000000000094 Rises=F Damp=F
  DIIS: error= 2.58D-07 at cycle  12 NSaved=  12.
- NSaved=12 IEnMin=12 EnMin= -456.022630379853     IErMin=12 ErrMin= 2.58D-07
+ NSaved=12 IEnMin=12 EnMin= -456.022630379855     IErMin=12 ErrMin= 2.58D-07
  ErrMax= 2.58D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.34D-11 BMatP= 7.10D-11
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com: -0.243D-05 0.198D-05 0.422D-04 0.162D-03 0.292D-03 0.399D-04
@@ -605,15 +605,15 @@
  Coeff:     -0.243D-05 0.198D-05 0.422D-04 0.162D-03 0.292D-03 0.399D-04
  Coeff:     -0.273D-02-0.870D-02-0.133D-01 0.331D-01 0.421D+00 0.570D+00
  Gap=     0.298 Goal=   None    Shift=    0.000
- RMSDP=4.43D-08 MaxDP=1.01D-06 DE=-9.15D-11 OVMax= 7.22D-07
+ RMSDP=4.43D-08 MaxDP=1.01D-06 DE=-9.44D-11 OVMax= 7.22D-07
 
  Cycle  13  Pass 1  IDiag  1:
  RMSU=  2.98D-08    CP:  9.88D-01  3.63D-01  1.02D+00  8.38D-01  8.38D-01
                     CP:  1.06D+00  1.08D+00  1.07D+00  8.93D-01  9.36D-01
                     CP:  1.01D+00  9.58D-01
- E= -456.022630379859     Delta-E=       -0.000000000006 Rises=F Damp=F
+ E= -456.022630379865     Delta-E=       -0.000000000009 Rises=F Damp=F
  DIIS: error= 7.37D-08 at cycle  13 NSaved=  13.
- NSaved=13 IEnMin=13 EnMin= -456.022630379859     IErMin=13 ErrMin= 7.37D-08
+ NSaved=13 IEnMin=13 EnMin= -456.022630379865     IErMin=13 ErrMin= 7.37D-08
  ErrMax= 7.37D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.24D-12 BMatP= 1.34D-11
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com:  0.161D-06-0.146D-05 0.745D-05 0.231D-04 0.823D-04 0.329D-03
@@ -623,15 +623,15 @@
  Coeff:     -0.253D-03-0.178D-02-0.751D-02-0.449D-02 0.362D-01 0.240D+00
  Coeff:      0.737D+00
  Gap=     0.298 Goal=   None    Shift=    0.000
- RMSDP=2.74D-08 MaxDP=1.03D-06 DE=-6.03D-12 OVMax= 3.40D-07
+ RMSDP=2.74D-08 MaxDP=1.03D-06 DE=-9.44D-12 OVMax= 3.40D-07
 
  Cycle  14  Pass 1  IDiag  1:
  RMSU=  1.38D-08    CP:  9.88D-01  3.63D-01  1.02D+00  8.38D-01  8.38D-01
                     CP:  1.06D+00  1.08D+00  1.07D+00  8.92D-01  9.40D-01
                     CP:  1.02D+00  9.82D-01  8.19D-01
- E= -456.022630379876     Delta-E=       -0.000000000017 Rises=F Damp=F
+ E= -456.022630379865     Delta-E=       -0.000000000001 Rises=F Damp=F
  DIIS: error= 1.34D-08 at cycle  14 NSaved=  14.
- NSaved=14 IEnMin=14 EnMin= -456.022630379876     IErMin=14 ErrMin= 1.34D-08
+ NSaved=14 IEnMin=14 EnMin= -456.022630379865     IErMin=14 ErrMin= 1.34D-08
  ErrMax= 1.34D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.15D-14 BMatP= 1.24D-12
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com:  0.157D-06-0.523D-06 0.496D-06-0.724D-06 0.120D-04 0.968D-04
@@ -641,12 +641,12 @@
  Coeff:      0.435D-04-0.189D-03-0.154D-02-0.288D-02-0.910D-02 0.439D-01
  Coeff:      0.220D+00 0.749D+00
  Gap=     0.298 Goal=   None    Shift=    0.000
- RMSDP=4.45D-09 MaxDP=1.39D-07 DE=-1.71D-11 OVMax= 7.35D-08
+ RMSDP=4.45D-09 MaxDP=1.40D-07 DE=-6.82D-13 OVMax= 7.35D-08
 
  SCF Done:  E(RBMK) =  -456.022630380     A.U. after   14 cycles
             NFock= 14  Conv=0.44D-08     -V/T= 2.0087
  KE= 4.521077490768D+02 PE=-1.880383013986D+03 EE= 5.641714020980D+02
- Leave Link  502 at Tue Sep 16 15:20:16 2025, MaxMem=    33554432 cpu:        86.2
+ Leave Link  502 at Tue Sep 16 16:00:19 2025, MaxMem=    33554432 cpu:        85.4
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l601.exe)
  Copying SCF densities to generalized density rwf, IOpCl= 0 IROHF=0.
 
@@ -833,15 +833,15 @@
  XXYZ=              0.0003 YYXZ=              0.0003 ZZXY=             -3.9056
  N-N= 4.080812324311D+02 E-N=-1.880383013289D+03  KE= 4.521077490768D+02
  No NMR shielding tensors so no spin-rotation constants.
- Leave Link  601 at Tue Sep 16 15:20:17 2025, MaxMem=    33554432 cpu:         1.2
+ Leave Link  601 at Tue Sep 16 16:00:19 2025, MaxMem=    33554432 cpu:         1.3
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l701.exe)
  Compute integral first derivatives.
  ... and contract with generalized density number  0.
  PrsmSu:  requested number of processors reduced to:   9 ShMem   1 Linda.
- Leave Link  701 at Tue Sep 16 15:20:17 2025, MaxMem=    33554432 cpu:         1.4
+ Leave Link  701 at Tue Sep 16 16:00:19 2025, MaxMem=    33554432 cpu:         1.4
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l702.exe)
  L702 exits ... SP integral derivatives will be done elsewhere.
- Leave Link  702 at Tue Sep 16 15:20:17 2025, MaxMem=    33554432 cpu:         0.3
+ Leave Link  702 at Tue Sep 16 16:00:19 2025, MaxMem=    33554432 cpu:         0.3
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l703.exe)
  Compute integral first derivatives, UseDBF=F ICtDFT=           0.
  Integral derivatives from FoFJK, PRISM(SPDF).
@@ -853,9 +853,9 @@
          wScrn=  0.000000 ICntrl=    2127 IOpCl=  0 I1Cent=           0 NGrid=           0
          NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
  Symmetry not used in FoFCou.
- Leave Link  703 at Tue Sep 16 15:20:17 2025, MaxMem=    33554432 cpu:         6.2
+ Leave Link  703 at Tue Sep 16 16:00:20 2025, MaxMem=    33554432 cpu:         7.3
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l716.exe)
- Dipole        =-1.11343000D+00-2.94226545D-01-6.07116331D-06
+ Dipole        =-1.11343000D+00-2.94226545D-01-6.07116324D-06
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
  Center     Atomic                   Forces (Hartrees/Bohr)
@@ -907,7 +907,7 @@
      19  H       16   0.000000(    18)     14  -0.000001(    35)     17   0.000002(    51)     0
  -----------------------------------------------------------------------------------------------
  Internal  Forces:  Max     0.076414442 RMS     0.030765469
- Leave Link  716 at Tue Sep 16 15:20:17 2025, MaxMem=    33554432 cpu:         0.5
+ Leave Link  716 at Tue Sep 16 16:00:20 2025, MaxMem=    33554432 cpu:         0.5
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -993,7 +993,7 @@
  Predicted change in Energy=-5.352546D-02
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Tue Sep 16 15:20:17 2025, MaxMem=    33554432 cpu:         0.6
+ Leave Link  103 at Tue Sep 16 16:00:20 2025, MaxMem=    33554432 cpu:         0.5
  (Enter /nexus/posix0/bmm/home/sucerqdl/sw/g09/l9999.exe)
  1\1\GINC-SLURM-ORBIT-CPU3\Force\RBMK\6-31+G\C5H10N2O2\SUCERQDL\16-Sep-
  2025\1\\#P bmk/6-31+g force\\Gaussian input prepared by ASE\\0,1\C\H,1
@@ -1019,8 +1019,11 @@
  8,5.8584653,13.4493046\PG=C01 [X(C5H10N2O2)]\\@
 
 
- MICRO CREDO - NEVER TRUST A COMPUTER BIGGER
-               BIGGER THAN YOU CAN LIFT.
- Job cpu time:       0 days  0 hours  1 minutes 49.8 seconds.
+ FROM AN ANONYMOUS WRITER, ON PERSPECTIVE:
+
+ MAN, DESPITE HIS ARTISTIC PRETENSIONS, HIS SOPHISTICATION AND MANY 
+ ACCOMPLISHMENTS, OWES THE FACT OF HIS EXISTENCE TO A SIX-INCH LAYER OF 
+ TOPSOIL AND THE FACT THAT IT RAINS.
+ Job cpu time:       0 days  0 hours  1 minutes 50.8 seconds.
  File lengths (MBytes):  RWF=    132 Int=      0 D2E=      0 Chk=      3 Scr=      2
- Normal termination of Gaussian 09 at Tue Sep 16 15:20:18 2025.
+ Normal termination of Gaussian 09 at Tue Sep 16 16:00:20 2025.
